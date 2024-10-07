@@ -25,7 +25,7 @@ modules:
           type: json
           url: https://nodejs.org/dist/index.json
           tag-query: >-
-            map(select(.version|startswith("v20."))) | sort_by(.date) | last | .version
+            map(select(.version|startswith("v22."))) | sort_by(.date) | last | .version
           version-query: >-
             $tag | sub("^[vV]"; "")
           url-query: >-
