@@ -1,7 +1,7 @@
 app-id: org.freedesktop.Sdk.Extension.node22
-branch: "24.08"
+branch: '24.08'
 runtime: org.freedesktop.Sdk
-runtime-version: "24.08"
+runtime-version: '24.08'
 sdk: org.freedesktop.Sdk
 build-extension: true
 separate-locales: false
@@ -19,8 +19,8 @@ modules:
   - name: node
     sources:
       - type: archive
-        url: https://nodejs.org/dist/v22.9.0/node-v22.9.0.tar.xz
-        sha256: a55aeb368dee93432f610127cf94ce682aac07b93dcbbaadd856df122c9239df
+        url: https://nodejs.org/dist/v20.18.0/node-v20.18.0.tar.xz
+        sha256: 7d9433e91fd88d82ba8de86e711ec41907638e227993d22e95126b02f6cd714a
         x-checker-data:
           type: json
           url: https://nodejs.org/dist/index.json
@@ -46,8 +46,8 @@ modules:
       - ln -sr ${FLATPAK_DEST}/share/yarn/bin/yarnpkg ${FLATPAK_DEST}/bin/yarnpkg
     sources:
       - type: archive
-        url: https://github.com/yarnpkg/yarn/releases/download/v1.22.21/yarn-v1.22.21.tar.gz
-        sha256: a55bb4e85405f5dfd6e7154a444e7e33ad305d7ca858bad8546e932a6688df08
+        url: https://github.com/yarnpkg/yarn/releases/download/v1.22.22/yarn-v1.22.22.tar.gz
+        sha256: 88268464199d1611fcf73ce9c0a6c4d44c7d5363682720d8506f6508addf36a0
         x-checker-data:
           type: json
           url: https://api.github.com/repos/yarnpkg/yarn/releases/latest
