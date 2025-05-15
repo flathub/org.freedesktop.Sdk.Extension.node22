@@ -8,8 +8,11 @@
   <summary>JavaScript runtime built on V8 JavaScript engine</summary>
   <url type="homepage">https://nodejs.org/</url>
   <releases>
-    <release version="22.15.0" date="2025-04-22">
+    <release version="22.15.1" date="2025-05-14">
       <description></description>
+    </release>
+    <release version="22.15.0" date="2025-04-22">
+      <description/>
     </release>
     <release version="22.14.0" date="2025-02-11">
       <description/>
